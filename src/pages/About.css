@@ -1,0 +1,45 @@
+.about{
+    height: 100vh;
+    background-color: whitesmoke
+}
+
+.about_container{
+    margin: auto 100px;
+    padding: 70px 0;
+}
+
+.about_title{
+    margin: 0;
+}
+
+.about_subcontainer{
+    margin-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.about_description{
+    margin: 0;
+    font-size: 28px;
+}
+
+
+@media only screen and (max-width: 1180px) {
+    .about{
+        height: fit-content
+    }
+
+    .about_container{
+        margin: auto 30px;
+        padding: 70px 0;
+    }
+    
+    .about_title{
+        margin: 0;
+    }
+
+    .about_description{
+        margin: 0;
+        font-size: 18px;
+    }
+}
