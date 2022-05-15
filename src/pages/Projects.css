@@ -18,8 +18,11 @@
     text-align: center;
 }
 
+.projects_wrapper{
+    margin: 10px;
+}
+
 .projects_projectContainer{
-    margin: 20px;
     border: 1.5px solid black;
     border-radius: 2px;
 }
@@ -200,7 +203,7 @@
 
 
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1275px) {
     .projects{
         height: fit-content;
     }
@@ -218,7 +221,7 @@
     }
 
     .projects_projectContainer{
-        margin: 10px;
+        margin: 5px;
         border: 1.5px solid black;
         border-radius: 2px;
     }
