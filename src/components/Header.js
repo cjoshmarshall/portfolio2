@@ -18,8 +18,10 @@ function Header() {
                 <li className='header_option'><a href="#contact">CONTACT</a></li>
             </ul>
         </div>
-          <div className='header_iconContainer' onClick={handleToggle}>
-              <i className="header_icon fa-solid fa-bars"></i>          
+          <div className='header_iconContainer'>
+              <div className='header_iconToggle' onClick={handleToggle}>
+                <i className="header_icon fa-solid fa-bars"></i>          
+              </div>
           </div>
       </div>
     );

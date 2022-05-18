@@ -13,7 +13,7 @@
 .navbar_iconContainer{
     display: flex;
     justify-content: flex-end;
-    margin: 18px;
+    margin: 14px 18px;
     font-size: xx-large;
 }
 

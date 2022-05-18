@@ -10,8 +10,10 @@ function Navbar() {
   return (
     <div className='navbar' id='navbar'>
       <div className='navbar_container'>
-        <div className='navbar_iconContainer' onClick={handleToggle}>
-            <i className="navbar_icon fa-solid fa-xmark"></i>          
+        <div className='navbar_iconContainer'>
+          <div className='navbar_iconToggle' onClick={handleToggle}>
+              <i className="navbar_icon fa-solid fa-xmark"></i>          
+          </div>
         </div>
         <ul className='navbar_menu'>
             <li className='navbar_option' onClick={handleToggle}>
