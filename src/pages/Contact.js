@@ -53,13 +53,13 @@ function Contact() {
             </p>
           </div>
           <div className='contact_innercontainer'>
-            <a href='https://wa.me/+919486684097' target="_blank" rel="noopener noreferrer">
-              <i className="contact_icon fa-brands fa-whatsapp"></i>
+            <a href='https://www.linkedin.com/in/cjoshmarshall' target="_blank" rel="noopener noreferrer">
+              <i class="contact_icon fa-brands fa-linkedin"></i>
             </a>           
-            <p className='contact_innertitle'>Whatsapp</p>
+            <p className='contact_innertitle'>Linkedin</p>
             <p className='contact_innerdescription'>              
-              <a href='https://wa.me/+919486684097' target="_blank" rel="noopener noreferrer">
-                <span>+919486684097</span>
+              <a href='https://www.linkedin.com/in/cjoshmarshall' target="_blank" rel="noopener noreferrer">
+                <span>Go to my Linkedin</span>
               </a>
             </p>
           </div>

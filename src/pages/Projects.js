@@ -29,7 +29,34 @@ function Projects() {
             <div className='projects_innercontainer2'>
               <h2 className='projects_innertitle'>{project.title}</h2>
             </div>
-            <button className='projects_button' onClick={()=>handleOverlay("overlay"+project.id)}>READ MORE</button>
+                <ul className='projects_linkContainer'>
+                  <li className='projects_link'>
+                    <a href={project.link} target='_blank' rel="noreferrer">
+                      <button className='projects_button'>
+                        VISIT WEBSITE
+                      </button>
+                    </a>
+                  </li>
+                  <li className='projects_link'>
+                    <a href={project.githubclient} target='_blank' rel="noreferrer">
+                      <button className='projects_button'>
+                        FRONT-END
+                      </button>
+                    </a>
+                  </li>
+                  <li className='projects_link'>
+                    <a href={project.githubserver} target='_blank'rel="noreferrer">
+                      <button className='projects_button'>
+                        BACK-END
+                      </button>
+                    </a>
+                  </li>
+                  <li className='projects_link'>
+                    <button className='projects_button' onClick={()=>handleOverlay("overlay"+project.id)}>
+                      READ MORE
+                    </button>
+                  </li>
+                </ul>
           </div>
           
           <div className='projects_overlaycontainer' id={`overlay${project.id}`}>
@@ -38,6 +65,7 @@ function Projects() {
               <i className="projects_overlayicon fa-solid fa-arrow-left"></i>
               </div>
             </div>
+            <div className='projects_overlaysubcontainer'>
               <div className='projects_overlayinnercontainer1'>
                   <img className='projects_overlayimage3' src={project.image3} alt=' ' />
                   <img className='projects_overlayimage2' src={project.image2} alt=' ' />
@@ -45,6 +73,7 @@ function Projects() {
               </div>
               <div className='projects_overlayinnercontainer2'>
                 <h2 className='projects_overlayinnertitle'>{project.title}</h2>
+                <h2 className='projects_overlayinnersubtitle'><i>{project.type}</i></h2>
                 <ul className='projects_overlaylistContainer'>
                   {project.tech.map(items => (
                     <li className='projects_overlaylist' key={items}>{items}</li>
@@ -54,32 +83,10 @@ function Projects() {
                   <p className='projects_overlaydescription'>Description:</p>
                   <p>{project.description}</p>
                 </div>
-                <ul className='projects_overlaylinkContainer'>
-                  <li className='projects_overlaylink'>
-                    <a href={project.link} target='_blank' rel="noopener noreferrer">
-                      <button className='projects_overlaybutton'>
-                        GO TO SITE
-                      </button>
-                    </a>
-                  </li>
-                  <li className='projects_overlaylink'>
-                    <a href={project.githubclient} target='_blank'>
-                      <button className='projects_overlaybutton'>
-                        Go to Git-Client
-                      </button>
-                    </a>
-                  </li>
-                  <li className='projects_overlaylink'>
-                    <a href={project.githubserver} target='_blank'>
-                      <button className='projects_overlaybutton'>
-                        Go to Git-Server
-                      </button>
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
-            </div>          
+            </div>
+          </div>          
         ))}                  
           </div>
     </div>

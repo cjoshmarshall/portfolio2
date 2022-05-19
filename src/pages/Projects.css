@@ -12,8 +12,9 @@
 }
 
 .projects_subcontainer{
+    margin: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin-bottom: 70px;
     text-align: center;
 }
@@ -71,16 +72,17 @@
 
 .projects_linkContainer{
     display: flex;
+    justify-content: center;
     padding: 0;
     list-style: none;
 }
 
 .projects_link{
-    margin: 0 20px;
+    margin: 0 12px;
 }
 
 .projects_button{
-    margin: 0 20px 20px 20px;
+    margin: 10px 0;
     padding: 5px 10px;
     font-size: medium;
     box-shadow: 3px 6px;
@@ -106,6 +108,10 @@
     background-color:  rgb(0,0,0, 0.7);
     backdrop-filter: blur(4px);
     z-index: 1;
+}
+
+.projects_overlaysubcontainer{
+    margin: auto 200px;
 }
 
 .projects_overlayiconContainer{
@@ -168,25 +174,6 @@
     font-size: larger;
 }
 
-.projects_overlaylinkContainer{
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    list-style: none;
-}
-
-.projects_overlaybutton{
-    margin: 20px;
-    padding: 10px 20px;
-    box-shadow: 5px 10px black;
-    transition: transform 100ms, box-shadow 100ms;
-}
-
-
-.projects_overlaybutton:hover{
-    transform: translate(10px,10px);
-    box-shadow: none
-}
 
 @keyframes image1 {
     33%,66% { opacity:0 }
@@ -278,6 +265,7 @@
 
 @media only screen and (max-width: 660px) {
     .projects_subcontainer{
+        margin: 0;
         display: grid;
         grid-template-columns: 1fr;
         gap: 40px;
