@@ -6,24 +6,21 @@
     display: block;
     text-align: center;
     margin: auto 250px;
-    padding: 120px 0;
+    padding: 100px 0;
 }
 
-.home_title{
+.home_description{
     margin: 0;
     font-size: 60px;
     line-height: 70px; 
 }
 
-.home_description{
-    margin: 10px;
-    font-size: 40px;
+.home_buttonContainer{
+    margin: 40px auto;
 }
 
-
-
 .home_button{
-    margin: 20px 20px;
+    margin: 10px 20px;
     padding: 10px 20px;
     box-shadow: 5px 10px;
     transition: transform 100ms, box-shadow 100ms;
@@ -46,17 +43,11 @@
         padding: 100px 0;
     }
     
-    .home_title{
+    .home_description{
         margin: 0;
         font-size: 50px;
         line-height: 70px; 
     }
-
-    .home_description{
-        margin: 10px;
-        font-size: 40px;
-    }
-    
 }
 
 
@@ -68,26 +59,15 @@
         padding: 100px 0;
     }
     
-    
-    .home_title{
-        margin: 0;
-        font-size: 60px;
-        line-height: 70px; 
-    }
-
     .home_description{
-        margin: 10px;
-        font-size: 40px;
+        margin: 0;
+        font-size: 50px;
+        line-height: 70px; 
     }
 }
 
 
 @media only screen and (max-width: 532px) {
-    .home{    
-        height: 90vh;
-        margin: 50px auto;
-    }
-
     .home_container{
         display: block;
         text-align: center;
@@ -95,15 +75,10 @@
         padding: 50px 0;
     }
     
-    .home_title{
+    .home_description{
         margin: 0;
         font-size: 30px;
         line-height: 70px; 
-    }
-
-    .home_description{
-        margin: 10px;
-        font-size: 20px;
     }
 
     .home_button{
