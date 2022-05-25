@@ -1,5 +1,6 @@
 .home{    
     height: 90vh;
+    background: linear-gradient(340deg, rgba(250,137,123,1) 0%, rgba(255,221,148,1) 46%)
 }
 
 .home_container{

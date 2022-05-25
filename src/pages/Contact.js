@@ -9,13 +9,13 @@ function Contact() {
         <h1 className='contact_subtitle'>Hire me!</h1>
         <div className='contact_subcontainer'>
           <div className='contact_innercontainer'>
-              <a href='https://drive.google.com/file/d/1VaOT_bj3izsFctooxw18qdH_QrFhDkNu/view' target="_blank" rel="noopener noreferrer">
+              <a href='https://drive.google.com/file/d/119NXFR6fvGSvwquDK7DAblP70v3KTSC8/view' target="_blank" rel="noopener noreferrer">
                 <i className="contact_icon fa-solid fa-note-sticky"></i>
               </a>
-            <p className='contact_innertitle'>Resume</p>
+            <p className='contact_innertitle'>Résumé</p>
             <p className='contact_innerdescription'>
-              <a href='https://drive.google.com/file/d/1VaOT_bj3izsFctooxw18qdH_QrFhDkNu/view' target="_blank" rel="noopener noreferrer">
-                <span>Go to my resume</span>
+              <a href='https://drive.google.com/file/d/119NXFR6fvGSvwquDK7DAblP70v3KTSC8/view' target="_blank" rel="noopener noreferrer">
+                <span>Go to my résumé</span>
               </a>
             </p>
           </div>

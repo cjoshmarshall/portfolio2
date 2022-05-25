@@ -17,7 +17,7 @@ function Projects() {
       <div className='projects_container'>
         <h1 className='projects_title'>Projects</h1>
       </div>
-          <div className='projects_subcontainer' >
+      <div className='projects_subcontainer' >
         {projects.map(project=>(
           <div className='projects_wrapper' key={project.id}>
           <div className='projects_projectContainer'>
@@ -30,27 +30,15 @@ function Projects() {
               <h2 className='projects_innertitle'>{project.title}</h2>
             </div>
                 <ul className='projects_linkContainer'>
-                  <li className='projects_link'>
-                    <a href={project.link} target='_blank' rel="noreferrer">
+                  {project.site.map(items=>(
+                  <li className='projects_link' key={items}>
+                    <a href={items.link} target='_blank' rel="noreferrer">
                       <button className='projects_button'>
-                        VISIT WEBSITE
+                        {items.button}
                       </button>
                     </a>
                   </li>
-                  <li className='projects_link'>
-                    <a href={project.githubclient} target='_blank' rel="noreferrer">
-                      <button className='projects_button'>
-                        FRONT-END
-                      </button>
-                    </a>
-                  </li>
-                  <li className='projects_link'>
-                    <a href={project.githubserver} target='_blank'rel="noreferrer">
-                      <button className='projects_button'>
-                        BACK-END
-                      </button>
-                    </a>
-                  </li>
+                  ))}
                   <li className='projects_link'>
                     <button className='projects_button' onClick={()=>handleOverlay("overlay"+project.id)}>
                       READ MORE
@@ -58,6 +46,7 @@ function Projects() {
                   </li>
                 </ul>
           </div>
+
           
           <div className='projects_overlaycontainer' id={`overlay${project.id}`}>
             <div className='projects_overlayiconContainer'>

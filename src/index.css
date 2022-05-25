@@ -5,12 +5,11 @@ html{
 body {
   margin: 0;
   color: rgb(0, 0, 50);
-  background-color: blanchedalmond;
+  background:#ffdd94;
   font-family: 'Maven Pro', sans-serif;
-  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  font-weight: bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: bold;
 }
 
 

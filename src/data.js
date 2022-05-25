@@ -10,6 +10,9 @@ import blogera3 from './assets/blogera3.jpg'
 import sg_img1 from './assets/snakegame1.jpg'
 import sg_img2 from './assets/snakegame2.jpg'
 import sg_img3 from './assets/snakegame3.jpg'
+import horoscope1 from './assets/horoscope1.jpg'
+import horoscope2 from './assets/horoscope2.jpg'
+import horoscope3 from './assets/horoscope3.jpg'
 
 
 
@@ -22,10 +25,22 @@ export const projects=[
         title:"Vintage Motors Rentals",
         type:"Personal Project",
         tech:["ReactJS","NodeJS","MongoDB","AWS"],
-        description:"A completely responsive e-commerce site for renting Bikes implemented using the MERN stack.",
-        link:"https://vintagemotorsrentals.netlify.app",
-        githubclient:"https://github.com/cjoshmarshall/vintagemotors_client",
-        githubserver:"https://github.com/cjoshmarshall/vintagemotors_server"
+        description:"A completely responsive e-commerce site for renting Bikes implemented using the MERN stack. Place a booking on your appropriate time and the bike gets delivered to you in no time to be rode.",
+        site:[
+            {
+                id:1,
+                link:"https://vintagemotorsrentals.netlify.app",
+                button:"VISIT WEBSITE"
+            },{
+                id:2,
+                link:"https://github.com/cjoshmarshall/vintagemotors_client",
+                button:"FRONT-END"
+            },{
+                id:3,
+                link:"https://github.com/cjoshmarshall/vintagemotors_server",
+                button:"BACK-END"
+            }
+        ]
     },
     {
         id:2,
@@ -35,10 +50,22 @@ export const projects=[
         title:"The Guitar Center",
         tech:["ReactJS","NodeJS","MongoDB","AWS"],
         type:"Personal Project",
-        description:"A completely responsive e-commerce site for where you can get any kinds of guitars. Developed using the MERN stack.",
-        link:"https://theguitarcenter.netlify.app",
-        githubclient:"https://github.com/cjoshmarshall/theguitarcenter_client",
-        githubserver:"https://github.com/cjoshmarshall/theguitarcenter_server"
+        description:"A completely responsive e-commerce site for where you can get guitars and guitar accessories. Developed using the MERN stack. Best for retailers who place orders in huge quantites.",
+        site:[
+            {
+                id:1,
+                link:"https://theguitarcenter.netlify.app",
+                button:"VISIT WEBSITE"
+            },{
+                id:2,
+                link:"https://github.com/cjoshmarshall/theguitarcenter_client",
+                button:"FRONT-END"
+            },{
+                id:3,
+                link:"https://github.com/cjoshmarshall/theguitarcenter_server",
+                button:"BACK-END"
+            }
+        ]
     },
     {
         id:3,
@@ -48,10 +75,22 @@ export const projects=[
         title:"Blogera",
         tech:["ReactJS","NodeJS","MongoDB","AWS"],
         type:"Personal Project",
-        description:"A completely responsive blog site developed using the MERN stack and AWS.",
-        link:"https://blogera.netlify.app",
-        githubclient:"https://github.com/cjoshmarshall/blogera_client",
-        githubserver:"https://github.com/cjoshmarshall/blogera_server"
+        description:"A completely responsive site for blogging and social networking developed using the MERN stack and AWS.",
+        site:[
+            {
+                id:1,
+                link:"https://blogera.netlify.app",
+                button:"VISIT WEBSITE"
+            },{
+                id:2,
+                link:"https://github.com/cjoshmarshall/blogera_client",
+                button:"FRONT-END"
+            },{
+                id:3,
+                link:"https://github.com/cjoshmarshall/blogera_server",
+                button:"BACK-END"
+            }
+        ]
     },
     {
         id:4,
@@ -62,8 +101,41 @@ export const projects=[
         type:"Personal Project",
         tech:["ReactJS","NodeJS","MongoDB"],
         description:"A responsive game made developed with the MERN stack. Press the UP,DOWN,LEFT,RIGHT keys to control the snake and swallow all the mice to score points.",
-        link:"https://joshssnakegame.netlify.app",
-        githubclient:"https://github.com/cjoshmarshall/snakegame_client",
-        githubserver:"https://github.com/cjoshmarshall/snakegame_server"
+        site:[
+            {
+                id:1,
+                link:"https://joshssnakegame.netlify.app",
+                button:"VISIT WEBSITE"
+            },{
+                id:2,
+                link:"https://github.com/cjoshmarshall/snakegame_client",
+                button:"FRONT-END"
+            },{
+                id:3,
+                link:"https://github.com/cjoshmarshall/snakegame_server",
+                button:"BACK-END"
+            }
+        ]
+    },
+    {
+        id:5,
+        image1:horoscope1,
+        image2:horoscope2,
+        image3:horoscope3,
+        title:"Horoscope",
+        type:"Personal Project",
+        tech:["ReactJS"],
+        description:"A completely responsive site to read horoscope developed using only React. Enter your name and sign and know about you past, present and future.",
+        site:[
+            {
+                id:1,
+                link:"https://joshshoroscope.netlify.app",
+                button:"VISIT WEBSITE"
+            },{
+                id:2,
+                link:"https://github.com/cjoshmarshall/horoscope",
+                button:"FRONT-END"
+            }
+        ]
     }
 ]

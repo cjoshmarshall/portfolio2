@@ -1,5 +1,6 @@
 .projects{
     height: fit-content;
+    background-color: blanchedalmond;
 }
 
 .projects_container{
@@ -12,10 +13,9 @@
 }
 
 .projects_subcontainer{
-    margin: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 70px;
+    padding: 0 20px 70px 20px;
     text-align: center;
 }
 
@@ -206,12 +206,12 @@
         gap: 0px;
         text-align: center;
     }
-
-    .projects_projectContainer{
-        margin: 5px;
-        border: 1.5px solid black;
-        border-radius: 2px;
+    
+    .projects_credentialscontainer{
+        width: 100%;
+        margin: auto 100px;
     }
+
 
     .projects_image1{
         height: 180px;
@@ -266,10 +266,25 @@
 @media only screen and (max-width: 660px) {
     .projects_subcontainer{
         margin: 0;
+        padding: 0;
         display: grid;
         grid-template-columns: 1fr;
         gap: 40px;
         text-align: center;
+    }
+    
+    .projects_credentials{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width: 100%;
+        font-size: medium;
+    }
+
+    .projects_projectContainer{
+        margin: 5px;
+        border: 1.5px solid black;
+        border-radius: 2px;
     }
 
     .projects_projectContainer{

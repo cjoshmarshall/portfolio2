@@ -1,6 +1,6 @@
 .about{
     height: 100vh;
-    background-color: whitesmoke
+    background-color: whitesmoke;
 }
 
 .about_container{
@@ -14,8 +14,8 @@
 
 .about_subcontainer{
     margin-top: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: lighter;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 0.3px;
 }
 
 .about_description{

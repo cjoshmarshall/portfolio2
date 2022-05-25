@@ -1,5 +1,6 @@
 .contact{
     height: 100vh;
+    background: linear-gradient(170deg, rgba(250,137,123,1) 0%, rgba(255,221,148,1) 46%)
 }
 
 .contact_container{
@@ -45,6 +46,7 @@
 .contact_icon:hover{
     color: blanchedalmond;
     background-color: rgb(70, 70, 70);
+    transform: translateY(-10px);
 }
 
 .contact_innertitle{
