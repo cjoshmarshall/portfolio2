@@ -25,7 +25,7 @@ export const projects=[
         title:"Vintage Motors Rentals",
         type:"Personal Project",
         tech:["ReactJS","NodeJS","MongoDB","AWS"],
-        description:"A completely responsive e-commerce site for renting Bikes implemented using the MERN stack. Place a booking on your appropriate time and the bike gets delivered to you in no time to be rode.",
+        description:"A completely responsive e-commerce site for renting Bikes implemented using the MERN stack. Place a booking on your appropriate time and the bike gets delivered to you in no time.",
         site:[
             {
                 id:1,

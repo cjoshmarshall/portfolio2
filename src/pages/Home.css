@@ -1,6 +1,6 @@
 .home{    
     height: 90vh;
-    background: linear-gradient(340deg, rgba(250,137,123,1) 0%, rgba(255,221,148,1) 46%)
+    background: linear-gradient(340deg, rgba(250,137,123,1) 0%, rgba(255,221,148,1) 46%);
 }
 
 .home_container{
@@ -8,12 +8,199 @@
     text-align: center;
     margin: auto 250px;
     padding: 100px 0;
+    text-align: center;
 }
 
 .home_description{
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
     font-size: 60px;
-    line-height: 70px; 
+    line-height: 70px;
+}
+
+
+.home_description div{
+    margin-right: 15px;
+}
+
+.home_description span{
+    display: inline-block;
+    position: relative;
+    animation: bounce 300ms linear;
+}
+
+
+.home_description .home_span1{
+    animation-delay: 2s;
+}
+.home_description .home_span2{
+    animation-delay: 100ms;
+}
+.home_description .home_span3{
+    animation-delay: 200ms;
+}
+.home_description .home_span4{
+    animation-delay: 300ms;
+}
+.home_description .home_span5{
+    animation-delay: 400ms;
+}
+.home_description .home_span6{
+    animation-delay: 500ms;
+}
+.home_description .home_span7{
+    animation-delay: 600ms;
+    animation-fill-mode: forwards;
+}
+.home_description .home_span8{
+    animation-delay: 700ms;
+    animation-fill-mode: forwards;
+}
+.home_description .home_span9{
+    animation-delay: 800ms;
+    animation-fill-mode: forwards;
+}
+.home_description .home_span10{
+    animation-delay: 900ms;
+    animation-fill-mode: forwards;
+}
+.home_description .home_span11{
+    animation-delay: 1s;
+}
+.home_description .home_span12{
+    animation-delay: 1100ms;
+}
+.home_description .home_span13{
+    animation-delay: 1200ms;
+}
+.home_description .home_span14{
+    animation-delay: 1300ms;
+}
+.home_description .home_span15{
+    animation-delay: 1400ms;
+}
+.home_description .home_span16{
+    animation-delay: 1500ms;
+}
+.home_description .home_span17{
+    animation-delay: 1600ms;
+}
+.home_description .home_span18{
+    animation-delay: 1700ms;
+}
+.home_description .home_span19{
+    animation-delay: 1800ms;
+}
+.home_description .home_span20{
+    animation-delay: 1900ms;
+}
+.home_description .home_span21{
+    animation-delay: 2s;
+}
+.home_description .home_span22{
+    animation-delay: 2100ms;
+}
+.home_description .home_span23{
+    animation-delay: 2200ms;
+}
+.home_description .home_span24{
+    animation-delay: 2300ms;
+}
+.home_description .home_span25{
+    animation-delay: 2400ms;
+}
+.home_description .home_span26{
+    animation-delay: 2500ms;
+}
+.home_description .home_span27{
+    animation-delay: 2600ms;
+}
+.home_description .home_span28{
+    animation-delay: 2700ms;
+}
+.home_description .home_span29{
+    animation-delay: 2800ms;
+}
+.home_description .home_span30{
+    animation-delay: 2900ms;
+}
+.home_description .home_span31{
+    animation-delay: 3s;
+}
+.home_description .home_span32{
+    animation-delay: 3100ms;
+    animation-fill-mode: forwards;
+}
+.home_description .home_span33{
+    animation-delay: 3200ms;
+}
+.home_description .home_span34{
+    animation-delay: 3300ms;
+}
+.home_description .home_span35{
+    animation-delay: 3400ms;
+}
+.home_description .home_span36{
+    animation-delay: 3500ms;
+}
+.home_description .home_span37{
+    animation-delay: 3600ms;
+}
+.home_description .home_span38{
+    animation-delay: 3700ms;
+}
+.home_description .home_span39{
+    animation-delay: 3800ms;
+}
+.home_description .home_span40{
+    animation-delay: 3900ms;
+}
+.home_description .home_span41{
+    animation-delay: 4s;
+}
+.home_description .home_span42{
+    animation-delay: 4100ms;
+}
+.home_description .home_span43{
+    animation-delay: 4200ms;
+}
+.home_description .home_span44{
+    animation-delay: 4300ms;
+}
+.home_description .home_span45{
+    animation-delay: 4400ms;
+}
+.home_description .home_span46{
+    animation-delay: 4500ms;
+}
+.home_description .home_span47{
+    animation-delay: 4600ms;
+}
+.home_description .home_span48{
+    animation-delay: 4700ms;
+}
+.home_description .home_span49{
+    animation-delay: 4800ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        color: white;
+        transform: translateY(-30px) rotateY(180deg);
+    }
+    99%{
+        color: white;
+    }
+    100%{
+        color: rgb(171,95,95);
+        transform: translateY(0px);
+    }
 }
 
 .home_buttonContainer{
@@ -24,7 +211,7 @@
     margin: 10px 20px;
     padding: 10px 20px;
     box-shadow: 5px 10px;
-    transition: transform 100ms, box-shadow 100ms;
+    transition: transform 100ms, box-shadow 00ms;
 }
 
 .home_button:hover{
@@ -86,7 +273,7 @@
         margin: 10px 10px;
         padding: 5px 10px;
         box-shadow: 5px 10px;
-        transition: transform 100ms, box-shadow 100ms;
+        transition: transform 100ms, box-shadow 00ms;
     }
 
 }

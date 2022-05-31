@@ -54,7 +54,7 @@ function Contact() {
           </div>
           <div className='contact_innercontainer'>
             <a href='https://www.linkedin.com/in/cjoshmarshall' target="_blank" rel="noopener noreferrer">
-              <i class="contact_icon fa-brands fa-linkedin"></i>
+              <i className="contact_icon fa-brands fa-linkedin"></i>
             </a>           
             <p className='contact_innertitle'>Linkedin</p>
             <p className='contact_innerdescription'>              
