@@ -23,6 +23,9 @@
     font-size: 28px;
 }
 
+.about_description span{
+    color: rgb(171,95,95);
+}
 
 @media only screen and (max-width: 1180px) {
     .about{
