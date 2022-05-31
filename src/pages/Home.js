@@ -1,16 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Home.css"
 
 function Home() {
 
   
 
-
-
     return (
       <div className="home">
-        <div className='home_container'>
-          <h1 className='home_description' id='bounce'>
+        <div className='home_container' id="home">
+          <h1 className='home_description'>
             <div>
             <span className='home_span1'>H</span>
             <span className='home_span2'>i</span>
