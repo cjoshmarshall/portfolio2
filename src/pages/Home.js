@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import "./Home.css"
 
 function Home() {
@@ -82,7 +82,7 @@ function Home() {
             </div>
           </h1>
           <div className='home_buttonContainer'>
-            <a href='https://drive.google.com/file/d/119NXFR6fvGSvwquDK7DAblP70v3KTSC8/view' target="_blank" rel="noopener noreferrer">
+            <a href='https://drive.google.com/file/d/1jJsRL71WQOByt3feEChM7QJL5zB2Rwkj/view' target="_blank" rel="noopener noreferrer">
               <button className='home_button'>CHECK OUT MY RÉSUMÉ</button>
             </a>
             <a href='https://www.github.com/cjoshmarshall' target="_blank" rel="noopener noreferrer">

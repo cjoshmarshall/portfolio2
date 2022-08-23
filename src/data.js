@@ -7,9 +7,12 @@ import tgc_img3 from './assets/theguitarcenter3.jpg'
 import blogera1 from './assets/blogera1.jpg'
 import blogera2 from './assets/blogera2.jpg'
 import blogera3 from './assets/blogera3.jpg'
-import sg_img1 from './assets/snakegame1.jpg'
-import sg_img2 from './assets/snakegame2.jpg'
-import sg_img3 from './assets/snakegame3.jpg'
+// import sg_img1 from './assets/snakegame1.jpg'
+// import sg_img2 from './assets/snakegame2.jpg'
+// import sg_img3 from './assets/snakegame3.jpg'
+import spacex1 from './assets/spacex1.png'
+import spacex2 from './assets/spacex2.png'
+import spacex3 from './assets/spacex3.png'
 import horoscope1 from './assets/horoscope1.jpg'
 import horoscope2 from './assets/horoscope2.jpg'
 import horoscope3 from './assets/horoscope3.jpg'
@@ -94,29 +97,50 @@ export const projects=[
     },
     {
         id:4,
-        image1:sg_img1,
-        image2:sg_img2,
-        image3:sg_img3,
-        title:"Snake Game",
+        image1:spacex1,
+        image2:spacex2,
+        image3:spacex3,
+        title:"Spacex",
         type:"Personal Project",
-        tech:["ReactJS","NodeJS","MongoDB"],
-        description:"A responsive game made developed with the MERN stack. Press the UP,DOWN,LEFT,RIGHT keys to control the snake and swallow all the mice to score points.",
+        tech:["ReactJS"],
+        description:"A completely responsive clone website of SpaceX.",
         site:[
             {
                 id:1,
-                link:"https://joshssnakegame.netlify.app",
+                link:"https://joshsspacex.netlify.app",
                 button:"VISIT WEBSITE"
             },{
                 id:2,
-                link:"https://github.com/cjoshmarshall/snakegame_client",
+                link:"https://github.com/cjoshmarshall/spacex_client",
                 button:"FRONT-END"
-            },{
-                id:3,
-                link:"https://github.com/cjoshmarshall/snakegame_server",
-                button:"BACK-END"
             }
         ]
     },
+    // {
+    //     id:4,
+    //     image1:sg_img1,
+    //     image2:sg_img2,
+    //     image3:sg_img3,
+    //     title:"Snake Game",
+    //     type:"Personal Project",
+    //     tech:["ReactJS","NodeJS","MongoDB"],
+    //     description:"A responsive game made developed with the MERN stack. Press the UP,DOWN,LEFT,RIGHT keys to control the snake and swallow all the mice to score points.",
+    //     site:[
+    //         {
+    //             id:1,
+    //             link:"https://joshssnakegame.netlify.app",
+    //             button:"VISIT WEBSITE"
+    //         },{
+    //             id:2,
+    //             link:"https://github.com/cjoshmarshall/snakegame_client",
+    //             button:"FRONT-END"
+    //         },{
+    //             id:3,
+    //             link:"https://github.com/cjoshmarshall/snakegame_server",
+    //             button:"BACK-END"
+    //         }
+    //     ]
+    // },
     {
         id:5,
         image1:horoscope1,
