@@ -9,7 +9,7 @@ function Contact() {
         <h1 className='contact_subtitle'>Hire me!</h1>
         <div className='contact_subcontainer'>
           <div className='contact_innercontainer'>
-              <a href='https://drive.google.com/file/d/119NXFR6fvGSvwquDK7DAblP70v3KTSC8/view' target="_blank" rel="noopener noreferrer">
+              <a href='https://drive.google.com/file/d/1jJsRL71WQOByt3feEChM7QJL5zB2Rwkj/view' target="_blank" rel="noopener noreferrer">
                 <i className="contact_icon fa-solid fa-note-sticky"></i>
               </a>
             <p className='contact_innertitle'>Résumé</p>
