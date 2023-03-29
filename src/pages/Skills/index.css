@@ -41,86 +41,113 @@
   transform: translate(-8px, -8px);
 }
 
-.skills_innercontainer:nth-child(1):hover {
+.skills_icon {
+  font-size: 50px;
+}
+
+.skills_html:hover {
   color: rgb(221, 75, 37);
   border: 2px solid rgb(221, 75, 37);
   box-shadow: 5px 8px 1px rgb(221, 75, 37);
 }
-.skills_innercontainer:nth-child(2):hover {
+.skills_css:hover {
   color: rgb(38, 77, 228);
   border: 2px solid rgb(38, 77, 228);
   box-shadow: 5px 8px 1px rgb(38, 77, 228);
 }
-.skills_innercontainer:nth-child(3):hover {
+.skills_js:hover {
   color: rgb(239, 216, 29);
   background-color: black;
   border: 2px solid black;
   box-shadow: 5px 8px 1px rgb(239, 216, 29);
 }
-.skills_innercontainer:nth-child(4):hover {
+.skills_ts:hover {
   color: rgb(0, 118, 198);
   border: 2px solid rgb(0, 118, 198);
   box-shadow: 5px 8px 1px rgb(0, 118, 198);
 }
-.skills_innercontainer:nth-child(5):hover {
+.skills_bootstrap:hover {
   color: rgb(132, 17, 246);
   border: 2px solid rgb(132, 17, 246);
   box-shadow: 5px 8px 1px rgb(132, 17, 246);
 }
-.skills_innercontainer:nth-child(6):hover {
+.skills_react:hover {
   color: rgb(95, 215, 244);
   background-color: black;
   border: 2px solid black;
   box-shadow: 5px 8px 1px rgb(95, 215, 244);
 }
-.skills_innercontainer:nth-child(7):hover {
+.skills_node:hover {
   color: rgb(90, 148, 85);
   background-color: rgb(51, 51, 51);
   border: 2px solid rgb(51, 51, 51);
   box-shadow: 5px 8px 1px rgb(90, 148, 85);
 }
-.skills_innercontainer:nth-child(8):hover {
+.skills_next:hover {
+  color: black;
+  background-color: rgb(247, 247, 247);
+  border: 2px solid black;
+  box-shadow: 5px 8px 1px black;
+}
+.skills_native:hover {
+  color: rgb(95, 215, 244);
+  background-color: black;
+  border: 2px solid black;
+  box-shadow: 5px 8px 1px rgb(95, 215, 244);
+}
+.skills_mysql:hover {
   color: rgb(14, 116, 140);
   background-color: rgb(234, 140, 16);
   border: 2px solid rgb(14, 116, 140);
   box-shadow: 5px 8px 1px rgb(14, 116, 140);
 }
-.skills_innercontainer:nth-child(9):hover {
+.skills_mongo:hover {
   color: rgb(0, 237, 100);
   background-color: rgb(0, 30, 43);
   border: 2px solid rgb(0, 30, 43);
   box-shadow: 5px 8px 1px rgb(0, 237, 100);
 }
-.skills_innercontainer:nth-child(10):hover {
+.skills_git:hover {
   color: rgb(232, 77, 49);
   border: 2px solid rgb(232, 77, 49);
   box-shadow: 5px 8px 1px rgb(232, 77, 49);
 }
-.skills_innercontainer:nth-child(11):hover {
+.skills_npm:hover {
   color: rgb(197, 54, 53);
   border: 2px solid rgb(197, 54, 53);
   box-shadow: 5px 8px 1px rgb(197, 54, 53);
 }
-.skills_innercontainer:nth-child(12):hover {
+.skills_yarn:hover {
   color: rgb(43, 138, 181);
   border: 2px solid rgb(43, 138, 181);
   box-shadow: 5px 8px 1px rgb(43, 138, 181);
 }
-.skills_innercontainer:nth-child(13):hover {
+.skills_aws:hover {
   color: rgb(255, 152, 0);
   background-color: rgb(34, 45, 60);
   border: 2px solid rgb(34, 45, 60);
   box-shadow: 5px 8px 1px rgb(255, 152, 0);
 }
-.skills_innercontainer:nth-child(14):hover {
-  color: rgb(0, 165, 247);
-  background-color: rgb(0, 22, 49);
-  border: 2px solid rgb(0, 22, 49);
-  box-shadow: 5px 8px 1px rgb(0, 165, 247);
+
+.skills_next .skills_icon {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border: 2.5px solid white;
+  border-radius: 50%;
 }
 
-.skills_icon {
-  font-size: 50px;
+.skills_next:hover .skills_icon {
+  transition: ease-out 150ms;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  color: black;
+  background-color: white;
+  border: 2.5px solid black;
+  border-radius: 50%;
 }
 
 @media only screen and (max-width: 1180px) {
