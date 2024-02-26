@@ -13,9 +13,6 @@ import blogera3 from "./assets/blogera3.jpg";
 import spacex1 from "./assets/spacex1.jpg";
 import spacex2 from "./assets/spacex2.jpg";
 import spacex3 from "./assets/spacex3.jpg";
-import horoscope1 from "./assets/horoscope1.jpg";
-import horoscope2 from "./assets/horoscope2.jpg";
-import horoscope3 from "./assets/horoscope3.jpg";
 
 export const projects = [
   {
@@ -149,27 +146,4 @@ export const projects = [
   //         }
   //     ]
   // },
-  {
-    id: 5,
-    image1: horoscope1,
-    image2: horoscope2,
-    image3: horoscope3,
-    title: "Horoscope",
-    type: "Personal Project",
-    tech: ["React"],
-    description:
-      "A completely responsive site to read horoscope developed using only React. Enter your name and sign and know about you past, present and future.",
-    site: [
-      {
-        id: 1,
-        link: "https://joshshoroscope.netlify.app",
-        button: "VISIT WEBSITE",
-      },
-      {
-        id: 2,
-        link: "https://github.com/cjoshmarshall/horoscope",
-        button: "FRONT-END",
-      },
-    ],
-  },
 ];

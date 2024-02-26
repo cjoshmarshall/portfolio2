@@ -3,16 +3,16 @@ import "./index.css";
 import { projects } from "../../data.js";
 
 function Projects() {
-  const handleFlip = (props) => {
+  const handleFlip = ({ id }) => {
     document
-      .getElementById(props)
+      .getElementById(id)
       .classList.add("projects_flip", "projects_flipShadow");
-    document.getElementById(props).classList.remove("projects_frontContainer");
+    document.getElementById(id).classList.remove("projects_frontContainer");
   };
 
-  const handleFlipBack = (props) => {
+  const handleFlipBack = ({ id }) => {
     document
-      .getElementById(props)
+      .getElementById(id)
       .classList.remove("projects_flip", "projects_flipShadow");
   };
 
@@ -59,7 +59,7 @@ function Projects() {
                   <li className="projects_link">
                     <button
                       className="projects_button"
-                      onClick={() => handleFlip("flip" + project.id)}
+                      onClick={() => handleFlip({ id: "flip" + project.id })}
                     >
                       READ MORE
                     </button>
@@ -88,7 +88,7 @@ function Projects() {
                   <li className="projects_link">
                     <button
                       className="projects_button"
-                      onClick={() => handleFlipBack("flip" + project.id)}
+                      onClick={() => handleFlipBack({ id: "flip" + project.id })}
                     >
                       READ LESS
                     </button>

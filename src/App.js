@@ -6,7 +6,7 @@ import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 
-function App() {
+export default function App() {
   return (
     <>
       <Header />
@@ -30,4 +30,3 @@ function App() {
   );
 }
 
-export default App;
